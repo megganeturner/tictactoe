@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <p id="player-one" class="active">Player One | x <span class="score"></score></p>
+      <p id="player-two">Player Two | o <span class="score"></score></p>
+    </div>
+    <div class="reset"><p>Reset Board<p></div>
+    <div id='board'>
+      <table>
+        <tr class="rowFirst">
+          <td id="one" class="columnFirst leftDiag"></td>
+          <td id="two" class="columnSecond"></td>
+          <td id="three" class="columnThird rightDiag"></td>
+        </tr>
+        <tr class="rowSecond">
+          <td id="four" class="columnFirst"></td>
+          <td id="five" class="columnSecond center leftDiag rightDiag"></td>
+          <td id="six" class="columnThird"></td>
+        </tr>
+        <tr class="rowThird">
+          <td id="seven" class="columnFirst rightDiag"></td>
+          <td id="eight" class="columnSecond"></td>
+          <td id="nine" class="columnThird leftDiag"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="message">
+    </div>
+
+
+  </div>
+
+</body>
+</html>
